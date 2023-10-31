@@ -47,7 +47,7 @@ jobs:
       image: ghcr.io/${{ github.repository }}/centos_env
       credentials:
         username: ${{ github.actor }}
-        password: ${{ secrets.GITHUB_TOKEN }}
+        password: ${{ secrets.GH_TOKEN }}
 
     defaults:
       run:
